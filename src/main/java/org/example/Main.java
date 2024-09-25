@@ -30,7 +30,7 @@ public class Main {
         }
         double average = sum / array.length;
 
-        System.out.println("\nОтсортированные нечетные числа:");
+        System.out.println("Отсортированные нечетные числа:");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
             if ((i + 1) % 10 == 0) {
@@ -38,6 +38,6 @@ public class Main {
             }
         }
 
-        System.out.printf("\nСреднее арифметическое: %.2f", average);
+        System.out.printf("Среднее арифметическое: %.2f", average);
     }
 }
